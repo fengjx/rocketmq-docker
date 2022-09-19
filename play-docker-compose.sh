@@ -25,7 +25,7 @@ fi
 
 prepare_dir()
 {
-    dirs=("data/namesrv/logs" "data/broker/logs" "data/broker/store" "data1/broker/logs" "data1/broker/store", "data/dashboard/data")
+    dirs=("data/namesrv/logs" "data/broker/logs" "data/broker/store" "data1/broker/logs" "data1/broker/store" "data/dashboard/data")
 
     for dir in ${dirs[@]}
     do
